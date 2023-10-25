@@ -3,7 +3,7 @@ module github.com/khulnasoft-lab/reportgen
 go 1.17
 
 require (
-	github.com/joho/godotenv v1.4.0
+	github.com/joho/godotenv v1.5.1
 	github.com/signintech/gopdf v0.10.4
 )
 
