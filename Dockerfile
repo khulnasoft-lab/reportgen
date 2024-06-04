@@ -1,4 +1,4 @@
-FROM golang:1.17.3-alpine as builder
+FROM golang:1.22.4-alpine as builder
 RUN mkdir /reportgen
 ADD . /reportgen/
 WORKDIR /reportgen
